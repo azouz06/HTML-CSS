@@ -1,0 +1,483 @@
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'popping',sans-serif;
+    scroll-behavior: smooth;
+
+}
+p{
+    color:#000;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+
+header{
+
+    position: fixed;
+    top: 0%;
+    left:0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: #fb911f;
+
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{   
+    list-style: none;
+    color: #000;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+}
+.btn-reserve{
+    padding: 10px 10px;
+    background-color: #fb1f;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+header .navbar li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+    
+}
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./plage.jpg) ;
+    background-size: cover;
+    
+
+}
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+
+}
+.banniere .contenu h2{
+    color: rgb(202, 128, 30);
+    font-size: 3em;
+    text-transform: capitalize ;
+}
+.contenu h4:nth-child(2){
+    color: #111;
+    font-size: 1.2em;
+}
+.btn1{
+    font-size: 1em;
+    color: azure;
+    background: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: 0.5s;
+    margin-left: 10px;
+
+}
+.btn2{
+    font-size: 1em;
+    color: azure;
+    background: #2a4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: 0.5s;
+    margin-left: 10px;
+
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+//////////////////////////////////////////////////////
+
+section{margin-bottom: 20px;}
+    
+.row {
+    position: relative;
+    padding: %;
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    margin-bottom:100px;
+}
+.row .col50{
+    position: relative;
+    padding: %;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+   margin-bottom: 20px;
+}
+.titre-texte {
+    color: #000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+
+}
+
+
+.titre-texte span{
+    color: #fb911f;
+    font-size: 1.2em;
+    font-weight: 500px ;
+}
+
+.row .col50 img{
+    height: 400px;
+    width: 400px;
+    
+    magin-right: 300px;
+    position: relative;
+}
+.titre{
+    display: flex;
+    justify-content:center ;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+     
+}
+.menu{
+    margin-top: -100px;
+}
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.menu .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(66, 59, 59, 0.8);
+
+}
+.menu .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .contenu .box .imbox img{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+.menu .contenu .box .text h3{
+    font-weight: 400;
+}
+
+////////////////////////////
+.expert{
+    margin-top: -100px;
+}
+
+.expert .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.expert .contenu .box{
+    width: 250px;
+    margin: 15px;
+
+    
+}
+.expert .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .contenu .box .imbox img{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.expert .contenu .box .text{
+    text-align: center;
+    font-weight: 4 00px;
+    color: #111;
+}
+.expert .contenu .box .text h3{
+    font-weight: 400;
+}
+///////////////////////
+.client{
+    margin-top: -100px;
+    background: #fb911f;
+    background-size: initial;
+    
+ }
+
+.client .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+} 
+.client .contenu .box{
+    width: 340px;
+    margin: 20px;
+    background:rgb(231, 206, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+    
+}
+.client .contenu .box .imbox{
+    position: relative;
+    width: 88px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.client .contenu .box .imbox img{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.client .contenu .box .text{
+    text-align: center;
+    font-weight: 400px;
+    font-style: italic;
+    color: #111; 
+   
+}
+.client .contenu .box .text h3{
+    font-weight: 600;
+    color:rgb(49, 114, 235);
+    text-decoration: underline;
+    font-size: 400;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}
+/////////////////
+.contact{
+    background: #fb911f;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position:unset ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+   
+
+}
+.contactform{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 30%;
+
+}
+.contactform .inbutboite{
+    position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+
+
+}
+.contactform h3  {
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px; 
+             
+}
+.contact .inbutboite input,
+.contact .inbutboite textarea{
+    width: 100%;
+    border: 1px solid#555;
+    padding: 20px ;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300px;
+    resize: none;
+}
+
+.contactform .inbutboite input[type="submit"]{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #fff;
+    background: #fb911f;
+    cursor: pointer;
+    text-transform: capitalize;
+    max-width: 150px;
+    max-height: 60px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+ 
+    align-items: center;
+}
+.copyright{
+    padding: 20px 40px;
+    border-top: 3px solid rgba(0, 0, 0, 0.1) ;
+    background: rgba(228, 222, 222, o.1);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: #333;
+}
+.copyright a{
+    color: #fb911f;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+} 
+
+
+header.sticky{
+    background: #fff;
+    padding:  10px 10px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.05);
+      
+}
+header.sticky .logo{
+    color: #000;
+}
+header .sticky .navbar li a{
+    color: #111;
+}    
+header .sticky .navbar li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid#fb911f;
+}
+
+@media(max-width: 991px) {
+
+    header, header.sticky{
+        padding: :20px 20px;
+    }
+header .navbar li{
+    margin-left: 0px;
+}
+header .navbar li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+
+    .row .col50{
+        position:relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        flex-direction: column;
+    }
+    
+}
+
+.navbar{
+    display: none;
+}
+section{
+    padding: 20px;
+}
+header .navbar .active{
+    width: 100%;
+    height: calc(100% -60%);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background: #ffff;
+    align-items: cener;
+}
+.menuToggle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
