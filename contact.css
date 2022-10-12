@@ -39,36 +39,44 @@ body{
 
 .backgroundcontact{
 width: 100%;
-height: 100vh;
-background: url("zz.jpg");
+height: 500px;
+background: url("tt.jpg");
 background-position: center;
 background-size: cover;
 display: flex;
 align-items: center;
 justify-content: center;
+
 }
-/////////////////
+
 .groupe{
-    margin-bottom:15px ;
+    margin-bottom:30px ;
     position: relative;
+    background-color: #fff;
+
 }
 input, textarea{
-    width: 100%;
-    padding: 5px;
+    width: 300px;
+    padding: 3px;
     border: 2px solid rgb(232, 233, 241);
     background: transparent;
     font-size: 15px;
+    
 }
 form{
     width: 90%;
-    max-width: 600px;
+    max-width: 60px;
 }
 label{
     height: 100%;
     color: rgb(237, 130, 52) ;
     position: absolute;
-
-    padding: -0px;
+    padding: 10px;
     cursor: text;
 
+}
+button{
+width: 100%;
+border: 2px solid #fff;
+cursor: pointer;
 }
