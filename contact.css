@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif ;
+    
+}
+.menu_bar{
+    background-color: rgb(101, 104, 105);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding: 0 5px;
+    justify-content: space-between;
+ align-items: center;
+
+}
+
+
+.menu_bar ul{
+   list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+}
+.menu_bar ul li a{
+    color: rgb(249, 247, 247);
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu_bar img {
+    height: 60px;
+    width: 120px;
+    margin-left: 70px;
+}
+
+.backgroundcontact{
+width: 100%;
+height: 100vh;
+background: url("zz.jpg");
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/////////////////
+.groupe{
+    margin-bottom:15px ;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgb(232, 233, 241);
+    background: transparent;
+    font-size: 15px;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+label{
+    height: 100%;
+    color: rgb(237, 130, 52) ;
+    position: absolute;
+
+    padding: -0px;
+    cursor: text;
+
+}
